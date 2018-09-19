@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>DaeguBusInfo</title>
+  <link rel="stylesheet" href="daeguBus.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div id="header__title">
+      <img id="header__busIcon" src="../../img/busIcon.png">
+      <div>DaeguBus</div>
+    </div>
+    <img id="header__gpsIcon" src="../../img/gpsIcon.img">
+  </header>
+
+  <nav id="busMenu">
+    <a href="daeguBus.html">정류장</a>
+  </nav>
+
+  <section>
+    <input id="section__search" type="text" name="stationName" placeholder="정류장 이름이나 번호를 입력하세요">
+  </section>
+
+  <hr>
+  <main>
+    <p id='messege'>검색어를 두글자 이상 입력하세요.</p>
+      <div id="businfo">
+      </div>
+  </main>
+
+  <script src="makeTag.js"></script>
+  <script src="util.js"></script>
+  <script src="busProject.js"></script>
+</body>
+
+</html>
